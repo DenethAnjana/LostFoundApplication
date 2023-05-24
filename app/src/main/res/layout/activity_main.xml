@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="@drawable/ico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnNewAdvert"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#860D9A"
+        android:text="CREATE A NEW AADVERT"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:layout_below="@id/iv"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#860D9A"
+        android:text="SHOW ALL LOST AND FOUND ITEMS"
+        android:textColor="#FFF"
+        android:layout_below="@id/btnNewAdvert"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/log"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"/>
+
+</RelativeLayout>
